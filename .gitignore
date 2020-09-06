@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# vs文件
+project/.vs/* 
+project/Sammy/.vs/* 
