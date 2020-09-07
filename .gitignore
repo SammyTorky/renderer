@@ -34,5 +34,4 @@
 # vs文件
 project/.vs/* 
 project/Sammy/.vs/* 
-project/freeglut_3_2_1/.vs/* 
-project/freeglut_3_2_1/x64/* 
+project/Sammy/Sammy/x64/* 
