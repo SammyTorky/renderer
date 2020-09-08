@@ -14,7 +14,7 @@ int main(int argc, char ** argv)
 	// 初始化glut
 	glutInit(&argc, argv);
 
-	SL<SampleMgr>::getMe()->InitSample();
+	SL<SampleMgr>::getMe()->InitSample(E_SAMPLE_01_DRAW_LINE);
 	SL<SampleMgr>::getMe()->Draw(E_SAMPLE_01_DRAW_LINE);
 
 	// 绘制和消息循环
