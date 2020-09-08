@@ -13,9 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{912490a9-7f16-449b-8a19-0739c282c0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f39cfbd6-8e53-4d40-af1e-c75a7df2032c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{ff80a9a1-2da5-462b-9001-94309a84f4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\sample_01_drawLine">
+      <UniqueIdentifier>{92ffd7c4-1936-4552-937c-fec1b3951a9d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Singleton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\baseMgr.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\SampleMgr.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\basic\sample_01_drawLine\sample_01_drawLine.h">
+      <Filter>sample\sample_01_drawLine</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\basic\baseSample.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="constant.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -25,6 +55,15 @@
     </ClCompile>
     <ClCompile Include="Sammy.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\baseMgr.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\SampleMgr.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sample\basic\sample_01_drawLine\sample_01_drawLine.cpp">
+      <Filter>sample\sample_01_drawLine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
