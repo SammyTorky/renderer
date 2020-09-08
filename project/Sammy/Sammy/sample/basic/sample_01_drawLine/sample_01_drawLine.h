@@ -1,5 +1,5 @@
 /*
-	use:	案例1：创建opgl与简单画线
+	use:	案例1：创建glut窗口过程，绘制简单线段
 
 	author:	Sammy
 */

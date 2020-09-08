@@ -22,7 +22,7 @@ namespace sample {
 		glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 		glutInitWindowPosition(50, 100);
 		glutInitWindowSize(400, 300);
-		glutCreateWindow("°¸Àý");
+		glutCreateWindow("DrawLine");
 	}
 	// »æÖÆ
 	void Sample_01_DrawLine::DrawSample()

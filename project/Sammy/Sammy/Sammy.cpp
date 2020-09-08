@@ -17,6 +17,9 @@ int main(int argc, char ** argv)
 	SL<SampleMgr>::getMe()->InitSample(E_SAMPLE_01_DRAW_LINE);
 	SL<SampleMgr>::getMe()->Draw(E_SAMPLE_01_DRAW_LINE);
 
+	SL<SampleMgr>::getMe()->InitSample(E_SAMPLE_02_POINT_PIXEL_TEST);
+	SL<SampleMgr>::getMe()->Draw(E_SAMPLE_02_POINT_PIXEL_TEST);
+
 	// 绘制和消息循环
 	glutMainLoop();
 }

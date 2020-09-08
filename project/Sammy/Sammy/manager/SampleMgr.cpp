@@ -4,6 +4,7 @@
 #include "freeglut.h"
 
 #include "../sample/basic/sample_01_drawLine/sample_01_drawLine.h"
+#include "../sample/basic/sample_02_basicPrimitive/sample_02_basicPrimitive.h"
 
 SampleMgr::SampleMgr() : baseMgr()
 {
@@ -23,6 +24,9 @@ void SampleMgr::InitSample(ESAMPLE sampleType)
 	case E_SAMPLE_01_DRAW_LINE:
 		SL<sample::Sample_01_DrawLine>::getMe()->InitSample();
 		break;
+	case E_SAMPLE_02_POINT_PIXEL_TEST:
+		SL<sample::Sample_02_BasicPrimitive>::getMe()->InitSample();
+		break;
 	default:
 		break;
 	}
@@ -36,6 +40,9 @@ void SampleMgr::Draw(ESAMPLE sampleType)
 	{
 	case E_SAMPLE_01_DRAW_LINE:
 		SL<sample::Sample_01_DrawLine>::getMe()->DrawSample();
+		break;
+	case E_SAMPLE_02_POINT_PIXEL_TEST:
+		SL<sample::Sample_02_BasicPrimitive>::getMe()->DrawSample();
 		break;
 	default:
 		break;

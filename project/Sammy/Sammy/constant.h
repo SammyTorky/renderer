@@ -7,7 +7,8 @@
 
 enum ESAMPLE
 {
-	E_SAMPLE_01_DRAW_LINE,
+	E_SAMPLE_01_DRAW_LINE,				// 创建glut窗口，绘制简单线段。
+	E_SAMPLE_02_POINT_PIXEL_TEST,		// 对于点使用的形式，以及浮点时取得的屏幕坐标
 };
 
 class baseSample
