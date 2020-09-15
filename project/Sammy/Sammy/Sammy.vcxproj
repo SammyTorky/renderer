@@ -160,6 +160,7 @@
     <ClInclude Include="sample\basic\baseSample.h" />
     <ClInclude Include="sample\basic\sample_01_drawLine\sample_01_drawLine.h" />
     <ClInclude Include="sample\basic\sample_02_basicPrimitive\sample_02_basicPrimitive.h" />
+    <ClInclude Include="utils\Error.h" />
     <ClInclude Include="utils\Singleton.h" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +175,7 @@
     <ClCompile Include="Sammy.cpp" />
     <ClCompile Include="sample\basic\sample_01_drawLine\sample_01_drawLine.cpp" />
     <ClCompile Include="sample\basic\sample_02_basicPrimitive\sample_02_basicPrimitive.cpp" />
+    <ClCompile Include="utils\Error.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

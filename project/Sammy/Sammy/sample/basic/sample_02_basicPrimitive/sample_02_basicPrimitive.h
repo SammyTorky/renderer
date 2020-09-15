@@ -5,6 +5,7 @@
 */
 #pragma once
 #include "../baseSample.h"
+#include "freeglut.h"
 
 namespace sample {
 	class Sample_02_BasicPrimitive : public baseSample
@@ -17,10 +18,17 @@ namespace sample {
 		void InitSample() override;
 		// 绘制
 		void DrawSample() override;
-		// 绘制线段
+		// 绘制内容
 		void DrawContent() override;
 
 	private:
-		int point[2] = { 101, 101 };
+		// 绘制分割线
+		void DrawSplitLines();
+		// 绘制点
+		void DrawPoints();
+		// 绘制折线图例
+		void DrawLineStrip();
+		// 绘制闭合折线图例
+		void DrawLineLoop();
 	};
 }

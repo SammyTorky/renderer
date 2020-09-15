@@ -54,6 +54,9 @@
     <ClInclude Include="sample\basic\sample_02_basicPrimitive\sample_02_basicPrimitive.h">
       <Filter>sample\sample_02_basicPrimitive</Filter>
     </ClInclude>
+    <ClInclude Include="utils\Error.h">
+      <Filter>utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -73,6 +76,9 @@
     </ClCompile>
     <ClCompile Include="sample\basic\sample_02_basicPrimitive\sample_02_basicPrimitive.cpp">
       <Filter>sample\sample_02_basicPrimitive</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Error.cpp">
+      <Filter>utils</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

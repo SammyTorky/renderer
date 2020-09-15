@@ -3,6 +3,8 @@
 #include "SampleMgr.h"
 #include "freeglut.h"
 
+#include "../utils/Error.h"
+
 #include "../sample/basic/sample_01_drawLine/sample_01_drawLine.h"
 #include "../sample/basic/sample_02_basicPrimitive/sample_02_basicPrimitive.h"
 
@@ -30,6 +32,8 @@ void SampleMgr::InitSample(ESAMPLE sampleType)
 	default:
 		break;
 	}
+
+	ErrorCheck();
 }
 // »æÖÆ
 // param:
@@ -47,4 +51,6 @@ void SampleMgr::Draw(ESAMPLE sampleType)
 	default:
 		break;
 	}
+
+	ErrorCheck();
 }
